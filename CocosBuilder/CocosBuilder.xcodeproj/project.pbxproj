@@ -6176,6 +6176,8 @@
 					dynamic_lookup,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = ccbPlugExport;
 			};
 			name = Debug;
@@ -6199,6 +6201,8 @@
 					dynamic_lookup,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = ccbPlugExport;
 			};
 			name = Release;
